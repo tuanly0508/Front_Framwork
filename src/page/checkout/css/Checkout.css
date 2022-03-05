@@ -1,0 +1,125 @@
+.container-checkout {
+    width: 100%;
+    top: 0 !important;
+    padding-top: 50px;
+    background-color: #FCF8EE;
+    padding-bottom: 50px;
+}
+
+.content-checkout {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.container-checkout .check-out-left-title {
+    margin-bottom: 20px;
+}
+
+.container-checkout p {
+    font-size: 18px;
+    color: #555;
+    font-weight: 700;
+}
+
+
+/* .checkout-right */
+
+.checkout-right {
+    border-left: 1px solid rgb(184, 184, 184);
+    padding-left: 15px;
+}
+
+.checkout-right span {
+    margin-left: 50px;
+    color: tomato;
+}
+
+.checkout-right .checkout-order {
+    height: 60%;
+    overflow: auto;
+    border-top: 1px dashed rgb(177, 177, 177);
+    margin-top: 20px;
+    text-align: center;
+}
+
+.checkout-right .checkout-order .checkout-order-item {
+    display: grid;
+    grid-template-columns: 20% 69% 11%;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.checkout-order-item .checkout-quantity {
+    position: relative;
+}
+
+.checkout-order-item .checkout-quantity i {
+    position: absolute;
+    top: -10%;
+    right: 18%;
+    background-color: rgb(71, 212, 255);
+    padding: 3px;
+    border-radius: 300px;
+    font-size: 12px;
+    color: white;
+}
+
+.checkout-right .checkout-order img {
+    width: 70%;
+}
+
+.checkout-right .checkout-order p {
+    font-size: 15px;
+}
+
+.checkout-payment {
+    margin: 20px 0;
+    border-top: 1px dashed rgb(177, 177, 177);
+    text-align: right;
+}
+
+.checkout-payment p {
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.checkout-total {
+    border-top: 1px dashed rgb(177, 177, 177);
+    text-align: right;
+}
+
+.checkout-total p {
+    margin-top: 20px;
+}
+
+.checkout-total button {
+    padding: 12px 15px;
+    margin-top: 20px;
+    width: 40%;
+    border: 1px solid wheat;
+    outline: none;
+    background-color: tomato;
+    color: white;
+    border-radius: 10px;
+}
+
+.checkout-total button:hover {
+    background-color: rgb(255, 77, 45);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.checkout-total .btn-back {
+    background-color: #FCF8EE;
+    color: tomato;
+    margin-right: 40px;
+    border: 1px solid darkgrey;
+}
+
+.checkout-total .btn-back:hover {
+    background-color: tomato;
+    color: white;
+}

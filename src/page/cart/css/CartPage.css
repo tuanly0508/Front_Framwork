@@ -1,0 +1,162 @@
+.container-cart {
+    width: 100%;
+    top: 0 !important;
+    padding-top: 50px;
+    background-color: #FCF8EE;
+}
+
+.content-cart {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* .cart-top */
+
+.cart-top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.cart-top h2 {
+    color: rgb(51, 51, 51);
+    margin-right: 20px;
+    font-size: 22px;
+}
+
+.cart-top button {
+    padding: 8px 45px;
+    border: 1px solid tomato;
+    background-color: #FCF8EE;
+    outline: none;
+    border-radius: 10px;
+}
+
+.cart-top button:hover {
+    background-color: tomato;
+    color: white;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+
+/* .cart-mid */
+
+.cart-mid span {
+    color: red;
+}
+
+.cart-mid i {
+    font-size: 20px;
+}
+
+.cart-mid i:hover {
+    color: tomato;
+    cursor: pointer;
+}
+
+.cart-mid .quantity-cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-mid .quantity-cart p {
+    margin: 0 10px;
+}
+
+.cart-mid .quantity-cart button {
+    background-color: white;
+    border: 1px solid wheat;
+    outline: none;
+    padding: 5px;
+    width: 15%;
+}
+
+.cart-mid .quantity-cart button:hover {
+    background-color: wheat;
+    cursor: pointer;
+    color: tomato;
+    transition: 0.25s;
+}
+
+.cart-bot {
+    text-align: right;
+    margin: 30px 0;
+}
+
+.cart-bot p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.cart-bot span {
+    margin-left: 10px;
+    color: red;
+}
+
+.cart-bot button {
+    padding: 15px 30px;
+    width: 30%;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid wheat;
+    background-color: #F2A528;
+    color: white;
+    margin-bottom: 50px;
+    font-size: 17px;
+}
+
+.cart-bot button:hover {
+    background-color: #b47f29;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+/* cart-empty */
+
+.content-cart-empty {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.content-cart-empty i {
+    font-size: 200px;
+    color: tomato;
+}
+
+.content-cart-empty i:hover {
+    cursor: pointer;
+    color: rgb(255, 59, 24);
+}
+
+.cart-empty-title h2 {
+    font-size: 25px;
+    color: #555;
+}
+
+.cart-empty-title p {
+    margin: 30px 0;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.cart-empty-title button {
+    padding: 15px;
+    width: 20%;
+    margin-bottom: 50px;
+    outline: none;
+    border: 1px solid wheat;
+    background-color: tomato;
+    color: white;
+    border-radius: 10px;
+}
+
+.cart-empty-title button:hover {
+    background-color: rgb(252, 74, 42);
+    cursor: pointer;
+    transition: 0.3s;
+}

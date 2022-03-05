@@ -1,0 +1,47 @@
+.container-footer{
+    background-image: url(https://bizweb.dktcdn.net/100/432/370/themes/828992/assets/bg-footer.png?1639287465667);
+    width: 100%;
+    top: 0 !important;
+    padding-top: 50px;
+}
+.content-footer {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-top {
+    text-align: center;
+}
+.footer-mid .link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.footer-mid .link li:hover{
+    color: tomato;
+    cursor: pointer;
+}
+.footer-mid .link li {
+    margin-right: 50px;
+    color: white;
+}
+.footer-mid .social {
+    text-align: center;
+    margin-top: 50px;
+}
+.footer-mid .social i:hover{
+    color: tomato;
+    cursor: pointer;
+}
+.footer-mid .social i {
+    margin-right: 30px;
+    font-size: 20px;
+    color: white;
+}
+.footer-bot {
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    color: white;
+}
